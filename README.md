@@ -1,5 +1,7 @@
 # 🛡️ DISA STIG Remediation on Windows 10 using Tenable & PowerShell
 
+![R](https://github.com/user-attachments/assets/25fa582a-03ca-4a34-bcd2-aacacc4d68c5)
+
 ## 📌 Project Overview
 
 This project demonstrates how to identify and remediate a Windows 10 DISA STIG finding using **Tenable Vulnerability Management** and **PowerShell scripting**. The finding in question, **WN10-SO-000100**, relates to enforcing **SMB packet signing** on the Windows SMB client to prevent man-in-the-middle attacks.
@@ -125,7 +127,7 @@ This project demonstrates how to identify and remediate a Windows 10 DISA STIG f
 ![13  Process of remediating the STIG](https://github.com/user-attachments/assets/a722a01f-0819-4c7f-b2e7-b7303aff42d7)
 
 - Remediate by setting the value of `RequireSecuritySignature` to `0`.
-*Purpose: Verify Tenable’s result with the actual Windows registry.*
+- *Purpose: Verify Tenable’s result with the actual Windows registry.*
 
 ![14  Remediating STIG](https://github.com/user-attachments/assets/fc71a658-60d2-4133-9703-af69441fe7b4)
 
