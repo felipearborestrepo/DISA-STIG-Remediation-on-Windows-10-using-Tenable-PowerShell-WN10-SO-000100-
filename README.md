@@ -26,7 +26,7 @@ This project demonstrates how to identify and remediate a Windows 10 DISA STIG f
 - **Value to Set:**  
   `RequireSecuritySignature=1 (REG_DWORD)`
 
-![STIG Details](screenshots/11.%20This%20first%20STIG%20to%20fix%20with%20the%20ID%20of%20WN10-SO-000100.png)
+![12  Found the ID from STIG to fix](https://github.com/user-attachments/assets/d71b8ef9-38eb-43a5-aeed-cc225776933d)
 
 ---
 
@@ -50,7 +50,8 @@ This project demonstrates how to identify and remediate a Windows 10 DISA STIG f
 
 ### 🧪 Step 3: Create Tenable Scan
 
-![4  Advanced Network Scan](https://github.com/user-attachments/assets/33fa86ce-9f7d-4f5d-a10b-332560de3b6d)
+![3 Create Scan Tenable](https://github.com/user-attachments/assets/6541804a-cdba-4cbe-86da-bb80955de60f)
+
 
 - Scan Template: **Advanced Network Scan**
 - *Purpose: Configure a flexible scan that supports STIG compliance audits.*
